@@ -1,0 +1,105 @@
+<!-- kml-to-wpt-client.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>KML → WPT Converter</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="converter-section">
+  <h1>KML → WPT Converter</h1>
+  <div class="file-input-wrapper">
+    <input type="file" id="fileInput" accept=".kml">
+    <label for="fileInput" class="file-input-label" id="fileLabel">
+      <span class="file-label-text">📁 Choose KML File</span>
+      <span class="file-name" id="fileName"></span>
+    </label>
+  </div>
+  <button id="convertBtn" disabled>Convert & Download .wpt</button>
+
+  <pre id="status"></pre>
+</div>
+
+<h2>⚠️ By using this tool or the WPT files you agree to the following terms:</h2>
+<ul>
+  <li><b>I hereby solemnly swear that I will not use any of the following terms on the radio frequency:</b></li>
+  <ul>
+    <li>Small Grassy Hill</li>
+    <li>The Triangular Peak to the Left</li>
+    <li>That Rocky Slope over the Forest</li>
+    <li>... any similarly unambiguous terms</li>
+  </ul>
+</ul>
+
+<div class="instructions">
+  <div class="instructions-header">
+    <h2>Usage</h2>
+    <span class="instructions-toggle">+</span>
+  </div>
+  <div class="instructions-content">
+    <p>Use Google Earth to create/edit your .kml file.</p>
+    <p>Convert the .kml file to a .wpt file using this tool.</p>
+    <p>Import the .wpt file into XCTrack.</p>
+
+    <h2>How to Import the WPT File in XCTrack</h2>
+    <ol>
+      <li>In XCTrack, go to "Navigation" → "Waypoints / XC Navigation"</li>
+      <li>Open "Waypoint Manager" (flag icon)</li>
+      <li>Go to the "FILES" tab</li>
+      <li>Click "Import waypoint file" (misleading download icon)</li>
+      <li>Select your converted .wpt file</li>
+      <li>After import, you should see your file (e.g., bir_billing.wpt) with the number of waypoints</li>
+      <li>Check the checkbox next to the file to activate the waypoints</li>
+    </ol>
+    
+    <h3>Important: Verify Map Display Settings</h3>
+    <p>Make sure your map widget is configured to display waypoints:</p>
+    <ol>
+      <li>Go to map settings</li>
+      <li>Enable "Display waypoints" checkbox as shown below</li>
+    </ol>
+    <img src="settings.png" alt="XCTrack map widget settings showing Display waypoints checkbox enabled" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 0.5rem; margin: 1rem 0;">
+    
+    <h3>Expected Result</h3>
+    <p>After completing the import and configuration, your map should display the waypoints as shown below:</p>
+    <img src="result.png" alt="XCTrack map showing imported waypoints like MillsPeak, BigFace, Woldo, DamRidge displayed on the terrain" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 0.5rem; margin: 1rem 0;">
+  </div>
+</div>
+
+<div class="download-table">
+  <h2>📁 Files</h2>
+  <p>Download existing KML and WPT files</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Location</th>
+        <th>Files</th>
+        <th>Updated</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Annecy</td>
+        <td class="files-cell">
+          <a href="Annecy.kml" download class="download-btn">📥 KML</a>
+          <a href="Annecy.wpt" download class="download-btn">📥 WPT</a>
+        </td>
+        <td class="date-subtle">2025.06.09</td>
+      </tr>
+      <tr>
+        <td>Bir Billing</td>
+        <td class="files-cell">
+          <a href="Bir Paragliding Map.kml" download class="download-btn">📥 KML</a>
+          <a href="Bir Paragliding Map.wpt" download class="download-btn">📥 WPT</a>
+        </td>
+        <td class="date-subtle">2025.06.09</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

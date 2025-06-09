@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Bir Paragliding Map</name>
+    <description><![CDATA[Paragliding landmarks around Bir<br>By https://paraguide.in]]></description>
+    <Style id="icon-1838-0F9D58-labelson-nodesc">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1838-558B2F-labelson-nodesc">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1838-FF5252-labelson">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-labelson">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-FF5252-labelson">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-FF5252-labelson-nodesc">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-FF0000-1000-128-normal">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>800000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FF0000-1000-128-highlight">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>1.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>800000ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FF0000-1000-128">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FF0000-1000-128-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FF0000-1000-128-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FF5252-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d5252ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-FF5252-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d5252ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-FF5252-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FF5252-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FF5252-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Paragliding landmarks</name>
+      <Placemark>
+        <name>Billing Takeoff </name>
+        <styleUrl>#icon-1838-558B2F-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.7451037,32.0601406,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bari Ridge or Plus One
+</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.7346307,32.0700963,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Golf Course
+</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.7048371,32.0936246,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Red Temple
+</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.6985041,32.085856,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dam Ridge
+</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.6749949,32.1225322,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Woldo
+</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.7137903,32.1443854,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Big Face
+</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.6242178,32.1442063,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palampur Ridge
+</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.5803705,32.1669954,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hobbiton Ridge
+</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.5219521,32.1861954,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chamunda
+</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.4494947,32.1893716,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yol Ridge
+</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.4138825,32.2140652,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Triund
+</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.3562457,32.2519156,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>McLeodgunj
+</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.3383634,32.2627279,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>50K</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.282929,32.2997806,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>60K</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.2656327,32.3610711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>70K</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.2019195,32.3993678,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barot Peak
+</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.8066204,32.1315696,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pass to Manali
+</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.985209,32.1066163,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Minus One
+</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.7720736,32.0417024,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Train Station
+</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.8335399,32.0144106,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>360</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.8620194,31.9831988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jhatingri Launch
+</name>
+        <styleUrl>#icon-1838-558B2F-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.8956504,31.9257655,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parashar
+</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            77.1191119,31.7491052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mandi - NO FLY OR LAND
+</name>
+        <description>5 KM Cylinder around Mandi</description>
+        <styleUrl>#icon-1899-FF5252-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.9371705,31.7065094,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Manali Solang
+</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            77.1536854,32.3162224,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hanuman Garh
+</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.7676563,32.0834722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Antenna Ridge
+</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.7033627,32.0141526,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ashapuri Antenna 
+</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.579669,31.9775262,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jawalamukhi Ridge
+</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.3086007,31.9239614,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NO FLY ZONE - Dalai Lama Residence
+</name>
+        <styleUrl>#icon-1899-FF5252-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.3243618,32.2321974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DO NOT LAND - ALHILAL MILITARY AREA
+</name>
+        <styleUrl>#poly-FF5252-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                76.6024546,32.0721717,0
+                76.6100077,32.0699898,0
+                76.6097073,32.0768264,0
+                76.6026262,32.0772992,0
+                76.6024546,32.0721717,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>DO NOT LAND - YOL MILITARY AREA
+</name>
+        <styleUrl>#icon-1899-FF5252-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.3863471,32.1882154,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DO NOT LAND - PALAMPUR MILITARY AREA
+</name>
+        <styleUrl>#icon-1899-FF5252-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.5576188,32.1120121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[MILL'S PEAK
+]]></name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.6543186,32.1820152,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DO NOT LAND - ALHILAL MILITARY AREA
+</name>
+        <styleUrl>#icon-1899-FF5252-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.607185,32.0743769,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BIR LANDING
+</name>
+        <styleUrl>#icon-1838-0F9D58-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.7078306,32.0417779,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NO FLY ZONE - AIRPORT
+</name>
+        <styleUrl>#icon-1899-FF5252-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            76.2689927,32.1670561,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NO FLY ZONE
+</name>
+        <description>Do not go beyond 81KM West from Billing</description>
+        <styleUrl>#icon-1899-FF5252-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            75.9752372,32.5421907,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Incidents</name>
+      <Placemark>
+        <name>Reserve</name>
+        <description><![CDATA[Massive collapse on speedbar, close to terrain. Tried to sort the wing, then got raiser twist. Deployed quickly, soft landing. Reserve envelope and taxi waiting right next to me.<br><br>No damage to any person or property.]]></description>
+        <styleUrl>#icon-1838-FF5252-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.9326862,31.8780292,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>Billing-D01</name>
+        <description>Billing Takeoff</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.743333,32.0565,2350
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nagehr Gabli-B48</name>
+        <description>Nagehr Gabli</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.659,31.988333,830
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baijnathish-B47</name>
+        <description>baijnathish</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.644333,32.051333,990
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palampur-B46</name>
+        <description>Palampur</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.529667,32.1085,1230
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Andreta-B45</name>
+        <description>Andreta</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.569833,32.037667,990
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mandi Top-B44</name>
+        <description>mandi top</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.967,31.738667,1750
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Drang-B43</name>
+        <description>drang</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.957167,31.825167,1670
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dyna Park-B42</name>
+        <description>dyna park</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.937167,31.882,1910
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Twin Peaks-B41</name>
+        <description>twin peaks</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.906333,31.914833,2090
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barot Pass-B40</name>
+        <description>barot pass</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.882167,31.949167,2050
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jnagar Out-B39</name>
+        <description>jnagar out</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.813167,31.973833,1520
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>360-B38</name>
+        <description>xaviers 360</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.8675,31.976167,2260
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pond-B37</name>
+        <description>pond</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.858,31.986833,2340
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mandi Rdg 1-B36</name>
+        <description>mandi ridge 1</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.847833,31.995167,2320
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cricket Pitch-B35</name>
+        <description>cricket pitch</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.812167,31.9885,1320
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Train Stn-B34</name>
+        <description>jnagar train station</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.8255,32.013,2420
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3rd Spur E-B33</name>
+        <description>3rd spur east</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.799833,32.021167,2070
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dohag-B32</name>
+        <description>Dohag</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.768167,31.999333,1080
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2nd Spur E-B31</name>
+        <description>2nd spur east</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.790833,32.037167,2450
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>First Spur E-B30</name>
+        <description>1st spur east</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.7655,32.037833,2240
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chauntra Monestary-B29</name>
+        <description>chauntra monastery</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.740333,32.006833,1210
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mangroli TO-B28</name>
+        <description>mangroli takeoff</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.719167,31.985,1480
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Antenna-B27</name>
+        <description>antenna</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.692833,32.019833,1450
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DH Stadium-B26</name>
+        <description>DH cricket stadium</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.326,32.197833,1160
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dharamshala-B25</name>
+        <description>past dharamsala 2</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.227,32.321833,2950
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dharamshala 1-B24</name>
+        <description>past Dharamsala 1</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.277333,32.293833,2610
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dharamshala-B23</name>
+        <description>Dharamsala</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.316667,32.251333,2170
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Triund-B22</name>
+        <description>triund</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.355333,32.259,2780
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Last Ridge-B21</name>
+        <description>last ridge</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.383333,32.2385,2700
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Quarry-B20</name>
+        <description>stone quarry</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.403167,32.205833,2130
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chamunda-B19</name>
+        <description>chamunda devi temple</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.450667,32.192333,2780
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gopalpur-B18</name>
+        <description>gopalpur</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.459,32.1415,1320
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hobbiton-B17</name>
+        <description>hobbiton</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.489833,32.172833,2400
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sheperd Camp-B16</name>
+        <description>sheperd camp</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.53,32.174333,2660
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palampur Hill-B15</name>
+        <description>palampur hill</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.508833,32.138833,1720
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palampur Rdg-B14</name>
+        <description>palampur ridge</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.563333,32.146833,2240
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Small Temple-B13</name>
+        <description>small temple</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.592833,32.132,2160
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tashijong-B12</name>
+        <description>tashijong ridge</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.628333,32.089167,1510
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Big Face Top-B11</name>
+        <description>top of big face</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.626167,32.144833,3190
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Big Face-B10</name>
+        <description>big face centre</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.6365,32.120167,2070
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mills Peak-B09</name>
+        <description>mills peak</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.652,32.184167,4140
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dam Ridge-B08</name>
+        <description>dam ridge</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.660167,32.112167,1680
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Woldo-B07</name>
+        <description>waldo peak</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.7145,32.144833,3470
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thatwal Thati-B06</name>
+        <description>Thatwal Thati</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.7175,32.103833,2620
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Golf Course-B05</name>
+        <description>golf course</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.704333,32.093833,2290
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Red Temple-B04</name>
+        <description>red roof temple</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.698667,32.086,2100
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sansal-B03</name>
+        <description>sansal</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.697,32.065833,1360
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>First Rdg-B02</name>
+        <description>first rige</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.726833,32.065167,2180
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Billing Up B01</name>
+        <description>billing upper ridge</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.753333,32.065167,2660
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Goal Dharamshala-A03</name>
+        <description>goal dharamsala</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.324,32.204,1220
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Goal Palampur-A02</name>
+        <description>goal palampur</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.548,32.101667,1280
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>A01</name>
+        <description>Desc 45</description>
+        <styleUrl>#icon-1899-DB4436-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            76.709333,32.040333,1400
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Bir Airspace - Unofficial</name>
+      <Placemark>
+        <name>Dalai</name>
+        <description>AL: GND, AH: FL 90</description>
+        <styleUrl>#poly-FF0000-1000-128</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                76.324,32.2486,0
+                76.302,32.237,0
+                76.3103,32.22,0
+                76.324,32.215,0
+                76.3346,32.2178,0
+                76.3397,32.2405,0
+                76.3331,32.2478,0
+                76.324,32.2486,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Mandi</name>
+        <description>AL: GND, AH: FL 46</description>
+        <styleUrl>#poly-FF0000-1000-128</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                76.915,31.674,0
+                76.953,31.6742,0
+                76.9703,31.7025,0
+                76.9503,31.712,0
+                76.9458,31.7481,0
+                76.9216,31.7316,0
+                76.915,31.674,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Noland-Military</name>
+        <description>AL: GND, AH: FL 40</description>
+        <styleUrl>#poly-FF0000-1000-128</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                76.6016,32.0703,0
+                76.6028,32.0678,0
+                76.6067,32.067,0
+                76.6125,32.0622,0
+                76.617,32.0562,0
+                76.6183,32.0565,0
+                76.6153,32.0633,0
+                76.611,32.0695,0
+                76.6112,32.0715,0
+                76.6058,32.0733,0
+                76.6042,32.0715,0
+                76.6023,32.0713,0
+                76.6016,32.0703,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Dalho Z</name>
+        <description>AL: GND, AH: UNLIMITED</description>
+        <styleUrl>#poly-FF0000-1000-128</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                76.04,32.4778,0
+                76.0772,32.5012,0
+                76.0847,32.555,0
+                75.9895,32.5978,0
+                75.8685,32.5058,0
+                75.9322,32.4517,0
+                75.9727,32.4717,0
+                76.04,32.4778,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Noland YOL MIL</name>
+        <description>AL: GND, AH: FL 52</description>
+        <styleUrl>#poly-FF0000-1000-128</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                76.374,32.183,0
+                76.373,32.1733,0
+                76.3763,32.1717,0
+                76.3755,32.1667,0
+                76.3772,32.165,0
+                76.3813,32.1703,0
+                76.3842,32.1767,0
+                76.3885,32.1815,0
+                76.3928,32.1845,0
+                76.3945,32.202,0
+                76.3852,32.2012,0
+                76.3802,32.1923,0
+                76.374,32.183,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Noland PALMPUR MIL</name>
+        <description>AL: GND, AH: FL 52</description>
+        <styleUrl>#poly-FF0000-1000-128</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                76.543,32.1031,0
+                76.5467,32.0995,0
+                76.5542,32.1013,0
+                76.5633,32.0972,0
+                76.5668,32.1235,0
+                76.5647,32.1255,0
+                76.5517,32.1172,0
+                76.5495,32.1075,0
+                76.543,32.1031,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>No-fly Airport</name>
+        <description>AL: GND, AH: UNLIMITED</description>
+        <styleUrl>#poly-FF0000-1000-128</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                76.225,32.049,0
+                76.3303,32.049,0
+                76.3287,32.1707,0
+                76.3165,32.192,0
+                76.2888,32.2003,0
+                76.1563,32.2233,0
+                76.1517,32.1522,0
+                76.209,32.1377,0
+                76.215,32.134,0
+                76.237,32.1202,0
+                76.225,32.049,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

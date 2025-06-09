@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Annecy v1</name>
+    <description/>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>3 Csucsu</name>
+        <description>Dents de Lanfon</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            6.2419975,45.86018,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Tournette</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.2854836,45.8250157,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Forclaz</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.247025,45.8142742,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Planfait</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.2232362,45.853,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Annecy gerinc</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.1890242,45.8904128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parmelan</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.2491057,45.939737,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thones gerinc</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.3242934,45.9006873,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mont Lachat</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.4722655,45.9579985,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Clusaz</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.4604209,45.8855139,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aravis gerinc</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.5240619,45.9205553,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Varan</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.6893872,45.9524707,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Passy - Plain Joux</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.7394855,45.9507659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Planpraz</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.8418128,45.9349345,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mont Charvin</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.4130024,45.8006021,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marlens</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.3389735,45.7759614,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Méruz</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.4135188,45.7837292,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dents des Cons</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.3528234,45.7316249,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tamié</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.3133003,45.7152541,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sambuy</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.2678101,45.6920568,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roc de Boeufs</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.1760736,45.7922072,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Entrevernes</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.1941466,45.7920875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mont Colombiers</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            6.1218164,45.6480794,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
