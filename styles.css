@@ -100,7 +100,7 @@ pre{white-space:pre-wrap;background:#f3f4f6;padding:.75rem;border-radius:.5rem}
   transition: max-height 0.3s ease-out;
 }
 .instructions-content.expanded {
-  max-height: 2000px;
+  max-height: 2500px;
   transition: max-height 0.5s ease-in;
 }
 .instructions h2 {
