@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1uEHvj5y_kLvISWA6RJepsqw6D7HV24df">
+	<name>Ivrea</name>
+	<StyleMap id="__managed_style_0013DE294D3A03C21097">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_131EBE9FCB3A03C21097</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_21A08965433A03C21097</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_1C92771B143A03C21096">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_131EBE9FCB3A03C21097">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<gx:displayMode>card</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_096E62AB9A3A03C21096">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1C92771B143A03C21096</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_28CA48C87E3A03C21096</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_22EE5DBC063A03C21094">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/none_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_18579423993A03C21094">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/none_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_21A08965433A03C21097">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<gx:displayMode>card</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_28CA48C87E3A03C21096">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_05801FC1083A03C21094">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_18579423993A03C21094</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_22EE5DBC063A03C21094</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="0A81B8BBE53A037E572C">
+		<name>Andrate</name>
+		<gx:fid>0x47889bb207ac7de5:0x30619b9d2424d242</gx:fid>
+		<styleUrl>#__managed_style_05801FC1083A03C21094</styleUrl>
+		<Point>
+			<coordinates>7.873815515539149,45.52831101307684,846.9740202893581</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09E241ECA53A037FF4C4">
+		<name>UFO gerinc ÉNy</name>
+		<LookAt>
+			<longitude>7.893712233899947</longitude>
+			<latitude>45.53085681248149</latitude>
+			<altitude>780.2992121336285</altitude>
+			<heading>-5.160294563929715e-11</heading>
+			<tilt>82.42037851354982</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>1693.94152435736</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_096E62AB9A3A03C21096</styleUrl>
+		<Point>
+			<coordinates>7.894970056464752,45.52294762510461,856.3656666958963</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06979B15213A03812758">
+		<name>UFO gerinc</name>
+		<LookAt>
+			<longitude>7.911026985804559</longitude>
+			<latitude>45.51112668164993</latitude>
+			<altitude>646.633733668165</altitude>
+			<heading>47.97215810179303</heading>
+			<tilt>62.28365629824318</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>3407.860285154893</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_096E62AB9A3A03C21096</styleUrl>
+		<Point>
+			<coordinates>7.921483858956115,45.50773301710088,740.1850706938013</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B3D03DEB33A0385B486">
+		<name>Cima Bossola</name>
+		<LookAt>
+			<longitude>7.720042279960369</longitude>
+			<latitude>45.48268962265475</latitude>
+			<altitude>1444.171720663861</altitude>
+			<heading>43.45817582077857</heading>
+			<tilt>19.70120503573991</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>1005.66166610879</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_096E62AB9A3A03C21096</styleUrl>
+		<Point>
+			<coordinates>7.71962373717302,45.48355890073386,1499.065987258658</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08C948F8413A038FCA49">
+		<name>Camping Valchiusella</name>
+		<gx:mid>/g/12hm4fphp</gx:mid>
+		<gx:fid>0x47888faff01b1cbb:0xad70931ffe04d6b2</gx:fid>
+		<LookAt>
+			<longitude>7.7742326</longitude>
+			<latitude>45.4576623</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>714.5709950590649</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0013DE294D3A03C21097</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>7.774232599999999,45.4576623,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F60AA70FC3A03919420">
+		<name>Monte Lion</name>
+		<LookAt>
+			<longitude>7.686133105683508</longitude>
+			<latitude>45.50222003154929</latitude>
+			<altitude>1901.295121750592</altitude>
+			<heading>-25.11026252579708</heading>
+			<tilt>0.1544202406676776</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>2631.350444844284</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_096E62AB9A3A03C21096</styleUrl>
+		<Point>
+			<coordinates>7.690338732921651,45.50218107298768,2002.949328649482</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01E7D156333A0395A6E4">
+		<name>Cima Mares</name>
+		<LookAt>
+			<longitude>7.561864170853509</longitude>
+			<latitude>45.39382117961281</latitude>
+			<altitude>1604.791281102552</altitude>
+			<heading>-27.32420476563722</heading>
+			<tilt>32.84370450065138</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>3367.939558859216</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_096E62AB9A3A03C21096</styleUrl>
+		<Point>
+			<coordinates>7.563215456232102,45.39539626889674,1648.931498944503</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0500E0B1573A039FE907">
+		<name>Brich della Pessa</name>
+		<LookAt>
+			<longitude>7.542845270999264</longitude>
+			<latitude>45.38362546315434</latitude>
+			<altitude>1616.773978464572</altitude>
+			<heading>-1.791127629229782</heading>
+			<tilt>69.30999604299714</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>750.6378913804656</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_096E62AB9A3A03C21096</styleUrl>
+		<Point>
+			<coordinates>7.542234622068243,45.38205412356809,1674.910461708481</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F12197D863A03A15AA0">
+		<name>Monte Vaccarezza</name>
+		<LookAt>
+			<longitude>7.4639751</longitude>
+			<latitude>45.3580261</latitude>
+			<altitude>2178.852123501692</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>572.7542137921308</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_096E62AB9A3A03C21096</styleUrl>
+		<Point>
+			<coordinates>7.463970483534606,45.35779658515091,2171.257383370885</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03747138A53A03A51919">
+		<name>Monte Bellavarda</name>
+		<gx:mid>/g/121zjm65</gx:mid>
+		<gx:fid>0x4788f865f05a4e21:0xc7e46d4bf13aeebb</gx:fid>
+		<LookAt>
+			<longitude>7.387421</longitude>
+			<latitude>45.37543845</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>3612.824115647932</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0013DE294D3A03C21097</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>7.387421000000001,45.375439,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04D6698F273A03A5E37C">
+		<name>Monte la Rossa</name>
+		<gx:mid>/g/11h37s1k0r</gx:mid>
+		<gx:fid>0x4788f9adeffc0137:0x3c9caf3275a22de7</gx:fid>
+		<LookAt>
+			<longitude>7.4177951</longitude>
+			<latitude>45.3739069</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>715.7242549874774</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0013DE294D3A03C21097</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>7.4177951,45.3739069,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="00D1477A9E3A03CE47A6">
+		<name>Lanzo völgy</name>
+		<LookAt>
+			<longitude>7.357782075306591</longitude>
+			<latitude>45.35616893837864</latitude>
+			<altitude>818.5394589022397</altitude>
+			<heading>-12.91860581846881</heading>
+			<tilt>59.49201356289311</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>17960.36253646016</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_096E62AB9A3A03C21096</styleUrl>
+		<Point>
+			<coordinates>7.366720550420425,45.34921103806818,779.1282764386218</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="079F9455123A03D2D45F">
+		<name>Lanzo völgy</name>
+		<LookAt>
+			<longitude>7.357782113202418</longitude>
+			<latitude>45.35616893837965</latitude>
+			<altitude>818.5394587904825</altitude>
+			<heading>-12.91860577621274</heading>
+			<tilt>59.49201355694068</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>17960.36253646016</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_096E62AB9A3A03C21096</styleUrl>
+		<Point>
+			<coordinates>7.39192878939857,45.33236540519975,736.8480674413576</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="017D1F42873A03D8E4FB">
+		<name>Monte Mars</name>
+		<LookAt>
+			<longitude>7.91383598768276</longitude>
+			<latitude>45.63621507974062</latitude>
+			<altitude>2303.530240878625</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>3627.648082680535</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_096E62AB9A3A03C21096</styleUrl>
+		<Point>
+			<coordinates>7.915562047580991,45.63339540146944,2520.992028371807</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
